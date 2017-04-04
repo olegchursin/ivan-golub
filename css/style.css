@@ -1,0 +1,11 @@
+.ad_navicon_toggle{
+display: none;
+}
+
+/* When the screen is less than 800 pixels wide, hide all links. Show the hamburger menu icon. */
+@media screen and (max-width: 800px) {
+.ad_navtext_toggle {display: none;}
+.ad_navicon_toggle {display: block;}
+
+}
+
